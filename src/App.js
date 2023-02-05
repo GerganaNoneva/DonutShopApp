@@ -1,19 +1,20 @@
 import "./App.css";
+import React from 'react';
+import {useState, useEffect} from 'react';
+import {StartScreen} from './components/StartScreen';
 
 function App() {
+  const [screen, setScreen] = useState('start');
+  const [selectedDonut, setSelectedDonut] = useState(null); 
+  const [showReadyScreen, setShowReadyScreen] = useState(false);
+
+  const startClick = () => {
+    setScreen('menu');
+  };
+  
   return (
-    <div className="App">
-      <section class="hero">
-        <div class="hero-body">
-          <p class="title">A React Task</p>
-          <p class="subtitle">by Boom.dev</p>
-        </div>
-      </section>
-      <div class="container is-fullhd">
-        <div class="notification">
-          Edit the <code>./src</code> folder to add components.
-        </div>
-      </div>
+    <div className="container">
+     {screen === 'start' && <StartScreen startClick={startClick} />}
     </div>
   );
 }
