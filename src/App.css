@@ -31,12 +31,21 @@
   max-height: 100vh;
 }
 
+.button {
+  font-family: 'Outfit-bold', sans-serif;
+  font-size: clamp(1.5rem, 1.2245rem + 2.2039vw, 2.5rem);
+  width: 70%;
+  margin-left: 15%;
+}
+
 /* Styles for Title Component */
 .title-container {
   border: 5px solid purple;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
+  width: 80%;
+  display: block;
+  justify-content: space-between;
+  align-items: right;
 }
 
 .title {
@@ -46,11 +55,13 @@
 }
 
 .small-title {
+  font-size: clamp(1.5rem, 1.2245rem + 2.2039vw, 2.5rem);
   border: 2px solid green;
   text-align: right;
 }
 
 .big-title {
+  font-size: clamp(3.5rem,3.2245rem + 2.2039vw, 4.5rem);
   border: 5px solid black;
   text-align: center;
 }
@@ -81,6 +92,12 @@
   background-position: right -1rem bottom 0rem;
   height: 60%;
   margin-top: -20%;
+}
+
+.start-button {
+  position: absolute;
+  font-size: clamp(2.5rem,2.2245rem + 2.2039vw, 2.5rem);
+  bottom: 20px;
 }
 
 

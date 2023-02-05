@@ -13,9 +13,9 @@ const StartScreen = ({ startClick }) => {
                 <div class="donut-true-blood"></div>
             </div>
             <div  class="title-start-screen">
-                KUR
+            <Title smallText={'THE'} bigText={'DONUT SHOP'}></Title>
             </div>
-        <button startClick={startClick}>Start</button>
+        <button startClick={startClick} class="button start-button">Start</button>
         </div>
     );
   };
