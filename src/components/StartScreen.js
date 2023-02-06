@@ -1,17 +1,17 @@
 import "../App.css";
 import React from 'react';
 import { Title } from "./Title";
-
+import UnicornDust from '../assets/unicorn_dust.svg'
+import TrueBlood from '../assets/true_blood.svg'
+import Sparkles from '../assets/sparkles.svg'
 
 const StartScreen = ({ handleClick}) => {
   
     return (
         <div className="container start-screen">
-
-            <div className="donuts-container">
-                <div className="donut-unicorn-dust"></div>
-                <div className="donut-true-blood"></div>
-            </div>
+                <img src={Sparkles} alt="Sparkles" class="sparkles"></img>
+                <img src={UnicornDust} alt="Unicorn Dust" class="unicorn-dust-one"></img>
+                <img src={TrueBlood} alt="True Blood" class="true-blood"></img>
             <div  className="title-start-screen">
             <Title smallText={'THE'} bigText={'DONUT SHOP'}></Title>
             </div>

@@ -44,6 +44,7 @@
   width: 100vw;
   height: 100vh;
   max-height: 100vh;
+  overflow: hidden;
 }
 
 .button {
@@ -54,7 +55,6 @@
   margin-left: 15%;
 }
 
-/*  font-size: clamp(1.5rem, 1.2245rem + 2.2039vw, 2.5rem);*/
 
 /* Styles for Title Component */
 
@@ -85,28 +85,27 @@
   background: linear-gradient(-65deg, #FF86B3 0%, #FF86B3 60%, #FFE84A 0%, #FFE84A 20%);
 }
 
-.donuts-container {
-  background-image: url('./assets/sparkles.svg');
-  background-size: 34rem;
-  background-repeat: no-repeat;
-  background-origin: border-box;
-  background-position: left 5rem bottom 5rem;
-  height: 50%;
+
+.unicorn-dust-one {
+  position: absolute;
+  width:50%;
+  filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.5));
+  margin-left: -8%;
+  margin-top: -8%;
 }
 
-.donut-unicorn-dust {
-  background-image: url('./assets/unicorn_dust.svg');
-  background-position: left -3rem bottom 2rem;
-  background-repeat: no-repeat;
-  height: 50%;
+.true-blood{
+  position: absolute;
+  width:70%;
+  filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.5));
+  margin-left: 32%;
+  margin-top: 35%;
 }
 
-.donut-true-blood {
-  background-image: url('./assets/true_blood.svg');
-  background-repeat: no-repeat;
-  background-position: right -1rem bottom 0rem;
-  height: 60%;
-  margin-top: -20%;
+.sparkles {
+  position: absolute;
+  margin-top: -25%;
+  margin-left: 15%;
 }
 
 .start-button {
