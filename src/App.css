@@ -116,7 +116,8 @@
 
 .title-start-screen {
   position: absolute;
-  bottom: 20%;
+  bottom: 40%;
+  left: 10vw;
 }
 
 /* Style Donut Component */
@@ -148,11 +149,13 @@
 
 .title-menu-screen{
   margin-top: 10%;
+  margin-left: 25vw;
 }
 
 .donut-menu {
   height: 70%;
   max-height: 90vh;
+  margin-top: 20%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -165,13 +168,23 @@
 }
 
 .title-payment-screen {
-  margin-top: 8rem;
-  margin-bottom: 3rem;
+  border: 5px solid purple;
+  margin-top: 10rem;
+  margin-bottom: 0rem;
   margin-right: 7%;
+  margin-left: 25vw;
+}
+
+.buttons-container {
+  position: absolute;
+  border: 1px solid red;
+  bottom: 40%;
+  width: 100%;
+  align-items: center;
 }
 
 .pay-button {
-  margin: 5% 15%;
+  margin-top: 5%;
 }
 
 .title-h3 {
@@ -259,6 +272,48 @@
   bottom: 6rem;
 }
 
+.heading {
+  border: 1px solid red;
+  font-family: 'Outfit-bold', sans-serif;
+  color: white;
+  position: absolute;
+  align-items: center;
+  line-height: 0;
+}
+
+.headingStart {
+  bottom: 20%;
+  left: 10vw;
+}
+
+/*   bottom: 20%;
+  left: 10vw; */
+.heading-one {
+  border: 1px solid blue;
+  text-align: right;
+  display: block;
+  line-height: 2.7rem;
+  font-size: clamp(3.25rem, 1.375rem + 4.6667vw, 4.25rem);
+}
+
+.heading-two {
+  border: 1px solid blue;
+  text-align: right;
+  display: block;
+  line-height: 2rem;
+  font-size: clamp(2.25rem, 1.375rem + 4.6667vw, 4rem);
+}
+
+.heading-three {
+  border: 1px solid green;
+  line-height: 0.75em;
+  text-align: center;
+  display: inline-block;
+  font-size: clamp(5.5rem, 2.55rem + 12vw, 9rem);
+}
+
+
+
 
 @media (min-width: 900px) {
   .container {
@@ -276,5 +331,36 @@
   }
   .title-h3 {
     font-size: 44px;
+  }
+
+  .heading{
+    left: 45px;
+  }
+
+  .heading-one {
+    font-size: 44px;
+  }
+
+  .heading-two {
+    font-size: 36px;
+  }
+
+  .heading-three {
+    font-size: 90px;
+  }
+
+  .title-start-screen  {
+    left: 3px;
+  }
+
+  .title-menu-screen{
+    margin-top: 10%;
+    margin-left: 50px;
+    position: relative;
+  }
+
+  .title-payment-screen {
+    margin-left: 70px;
+    position: relative;
   }
 }
