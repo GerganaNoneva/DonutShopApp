@@ -1,6 +1,5 @@
 import React from 'react'
-import {Title} from './Title'
-import {TitleNew} from './TitleNew'
+import {Title} from './Title.js'
 import ApplePay from '../assets/apple-pay.png';
 import GooglePay from '../assets/google-pay.png';
 import UnicornDust from '../assets/unicorn_dust.svg'
@@ -14,7 +13,7 @@ const PaymentScreen = ({payClick}) => {
         <img src={SkyShaped} alt="Sky Shaped" className="sky-shaped"></img>
         <img src={UnicornDust} alt="Unicorn Dust" className="unicorn-dust-two"></img>
         <div className="title-payment-screen">
-            <TitleNew headingOne={"You can"} headingTwo={"PAY US"} headingThree={"NOW"}/>
+            <Title headingOne={"You can"} headingTwo={"PAY US"} headingThree={"NOW"}/>
         </div>
         <div className="buttons-container">
         <button className='button pay-button' onClick={payClick}>

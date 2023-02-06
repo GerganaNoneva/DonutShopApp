@@ -1,6 +1,5 @@
 import React from 'react';
-import {Title} from './Title';
-import {TitleNew} from './TitleNew';
+import {Title} from './Title.js';
 import {Donut} from './Donut'
 import UnicornDust from '../assets/unicorn_dust.svg';
 import TrueBlood from '../assets/true_blood.svg';
@@ -16,7 +15,7 @@ const MenuScreen = ({ onSelectDonut }) => {
   return (
     <div className='container menu-screen'>
         <div  className="title-menu-screen">
-            <TitleNew headingTwo={'THE'} headingThree={'MENU'}></TitleNew>
+            <Title headingTwo={'THE'} headingThree={'MENU'}></Title>
         </div>
         <div className='donut-menu'>
         {donuts.map(donut => (
