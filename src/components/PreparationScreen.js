@@ -9,7 +9,7 @@ const PreparationScreen = ({donut}) => {
             <div className='big-donut'> 
                 <img src={donut.image} alt={donut.name} className='donut-svg-big'></img>
             </div>
-            <h1 className='title preparing-title'>Preparing</h1>
+            <div className='preparing-title'>Preparing</div>
         </div>
     )
 }

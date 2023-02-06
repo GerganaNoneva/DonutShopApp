@@ -7,11 +7,17 @@ const Donut = ({ image , name}) => {
         <div className='donut-name'>
             {name}
         </div>
-        <div className='donut-image'>
             <img className='donut-svg' src={image} alt={name} />
-        </div>
     </div>
   );
 };
 
 export {Donut};
+/*
+<div className='donut-name'>
+            {name}
+        </div>
+        <div className='donut-image'>
+            <img className='donut-svg' src={image} alt={name} />
+        </div>
+        */

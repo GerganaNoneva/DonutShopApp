@@ -13,8 +13,8 @@ const PaymentScreen = ({payClick}) => {
                 <div className="donut-dust"></div>
         </div>
         <div className="title-payment-screen">
-        <h3 className="title small-title title-h3">You can</h3>
-        <Title smallText="PAY US" bigText="NOW" style={{textAlign: 'right'}}/>
+        <h3 className="title-h3">You can</h3>
+        <Title smallText="PAY US" bigText="NOW"/>
         </div>
         <button className='button pay-button' onClick={payClick}>
             <img src={ApplePay} alt='Apple Pay'></img>
@@ -28,4 +28,4 @@ const PaymentScreen = ({payClick}) => {
 };
 
 export {PaymentScreen};
-
+/*<h3 className="title small-title title-h3">You can</h3>*/ 

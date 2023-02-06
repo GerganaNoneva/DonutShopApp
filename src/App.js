@@ -39,6 +39,7 @@ function App() {
 
   const doneClick = () => {
     setScreen('start');
+    setShowReadyScreen(false);
   }; 
 
   return (
