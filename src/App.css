@@ -81,10 +81,10 @@
 }
 
 /* Styles for Start Screen component*/
+
 .start-screen {
   background: linear-gradient(-65deg, #FF86B3 0%, #FF86B3 60%, #FFE84A 0%, #FFE84A 20%);
 }
-
 
 .unicorn-dust-one {
   position: absolute;
@@ -114,7 +114,6 @@
   bottom: 20px;
 }
 
-
 .title-start-screen {
   position: absolute;
   bottom: 20%;
@@ -132,7 +131,6 @@
   line-height: 1em;
   font-size: clamp(1.5rem, -0.2308rem + 9.2308vw, 2.25rem);
   text-align: right;
-
 }
 
 .donut-svg {
@@ -223,7 +221,6 @@
   filter: drop-shadow(25px 15px 15px rgb(0 0 0 / 0.4));
 }
 
-
 .preparing-title {
   font-size: clamp(1.5rem, 2.2245rem + 2.2039vw, 2.5rem);
   font-family: 'Outfit-bold', sans-serif;
@@ -261,6 +258,7 @@
   font-size: 3rem;
   bottom: 6rem;
 }
+
 
 @media (min-width: 900px) {
   .container {

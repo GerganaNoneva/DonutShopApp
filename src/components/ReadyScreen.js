@@ -7,10 +7,9 @@ const ReadyScreen = ({donut, doneClick}) => {
             <div className='big-donut'> 
                 <img src={donut.image} alt={donut.name} className='preparation-donut donut-svg-big '></img>
             </div>
-            <h3 className='title ready-title'>You can now come and pick<br></br> your amazing Donut!</h3>
-        <button onClick={doneClick} className="button ready-button">Done</button>
+            <h3 className='title ready-title'>You can now come<br></br> and pick<br></br> your amazing Donut!</h3>
+            <button onClick={doneClick} className="button ready-button">Done</button>
         </div>
-
     )
 }
 

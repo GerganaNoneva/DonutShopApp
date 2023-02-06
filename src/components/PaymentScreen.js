@@ -10,11 +10,11 @@ const PaymentScreen = ({payClick}) => {
 
     return (
     <div className='container payment-screen'>
-        <img src={SkyShaped} alt="Sky Shaped" class="sky-shaped"></img>
-        <img src={UnicornDust} alt="Unicorn Dust" class="unicorn-dust-two"></img>
+        <img src={SkyShaped} alt="Sky Shaped" className="sky-shaped"></img>
+        <img src={UnicornDust} alt="Unicorn Dust" className="unicorn-dust-two"></img>
         <div className="title-payment-screen">
-        <h3 className="title-h3">You can</h3>
-        <Title smallText="PAY US" bigText="NOW"/>
+            <h3 className="title-h3">You can</h3>
+            <Title smallText="PAY US" bigText="NOW"/>
         </div>
         <button className='button pay-button' onClick={payClick}>
             <img src={ApplePay} alt='Apple Pay'></img>
@@ -22,11 +22,9 @@ const PaymentScreen = ({payClick}) => {
         <button className="button pay-button" onClick={payClick}>
             <img src={GooglePay} alt='Google Pay'></img>
         </button>
-
-      
     </div>
     )   
 };
 
 export {PaymentScreen};
-/*<h3 className="title small-title title-h3">You can</h3>*/ 
+

@@ -9,13 +9,13 @@ const StartScreen = ({ handleClick}) => {
   
     return (
         <div className="container start-screen">
-                <img src={Sparkles} alt="Sparkles" class="sparkles"></img>
-                <img src={UnicornDust} alt="Unicorn Dust" class="unicorn-dust-one"></img>
-                <img src={TrueBlood} alt="True Blood" class="true-blood"></img>
+            <img src={Sparkles} alt="Sparkles" className="sparkles"></img>
+            <img src={UnicornDust} alt="Unicorn Dust" className="unicorn-dust-one"></img>
+            <img src={TrueBlood} alt="True Blood" className="true-blood"></img>
             <div  className="title-start-screen">
             <Title smallText={'THE'} bigText={'DONUT SHOP'}></Title>
             </div>
-        <button onClick={handleClick} className="button start-button">Start</button>
+            <button onClick={handleClick} className="button start-button">Start</button>
         </div>
     );
   };
